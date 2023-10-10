@@ -42,8 +42,7 @@
                         <phase>package</phase>
                         <goals><goal>copy</goal></goals>
                         <configuration>
-                                 <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
-                            <artifactItems>
+                                 <artifactItems>
                                 <artifactItem>
                                     <groupId>org.eclipse.jetty</groupId>
                                     <artifactId>jetty-runner</artifactId>
