@@ -50,6 +50,7 @@
                                     <destFileName>jetty-runner.jar</destFileName>
                                 </artifactItem>
                             </artifactItems>
+                                 <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
                         </configuration>
                     </execution>
                 </executions>
